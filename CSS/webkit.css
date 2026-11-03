@@ -1,0 +1,19 @@
+@import url(index.css);
+/* Estilo geral da barra de rolagem */
+ /* Cor da barra de rolagem ao passar o mouse */
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: var(--cor-4);
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb {
+	border-style: solid;
+	border-width: 3px;
+	background-color:  #6B7366; /* Cor da barra de rolagem */
+}
+::-webkit-scrollbar-thumb:hover {
+	transform: scale(1.07);
+	box-shadow: 25px 25px 25px 20px black;
+	cursor: grabbing;
+	background-color: var(--cor-4); /* Cor da barra de rolagem ao passar o mouse */
+}
